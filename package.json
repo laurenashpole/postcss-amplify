@@ -3,6 +3,9 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "version": "lerna version prerelease --preid beta",
+    "prepublish": "lerna prepublish",
+    "publish": "lerna publish from-git --yes --npm-client yarn --npm-tag beta",
     "test": "jest && eslint ."
   },
   "workspaces": [
