@@ -4,7 +4,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "version": "lerna version prerelease --preid beta",
-    "publish": "lerna publish from-git --yes --npm-tag beta",
+    "publish": "lerna publish from-git --yes --dist-tag beta",
     "test": "jest && eslint ."
   },
   "workspaces": [
