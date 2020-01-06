@@ -8,8 +8,12 @@ const postcssUnprefixed = require('postcss-unprefixed')
 module.exports = postcss.plugin('postcss-amplify', (opts = {}) => {
   return root => {
     return postcss([
-      postcssExcludeBlocks(opts),
-      postcssMobileOnlyMqs(opts),
+      postcssExcludeBlocks({
+        exclude: opts.excludedBlocks || []
+      }),
+      postcssMobileOnlyMqs({
+        maxBreakpoint: opts.maxBreakpoint || '0px'
+      }),
       postcssRemoveAmpStyling(),
       postcssUnimportant(),
       postcssUnprefixed({

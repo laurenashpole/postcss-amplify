@@ -9,7 +9,7 @@ async function run (input, output, opts) {
 }
 
 it('optimizes for AMP', async () => {
-  await run(inputData.amp, outputData.amp, {})
+  await run(inputData.amp, outputData.amp, { excludedBlocks: ['sidebar'] })
 })
 
 const inputData = {
@@ -38,6 +38,10 @@ const inputData = {
 
     .-amp-image {
       width: 300px;
+    }
+
+    .sidebar {
+      background: #f1f1f1;
     }
   `
 }

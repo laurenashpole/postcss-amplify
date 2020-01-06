@@ -9,7 +9,8 @@
     "postcss-plugin",
     "amp",
     "google amp",
-    "accelerated mobile pages"
+    "accelerated mobile pages",
+    "amp-custom"
   ],
   "author": "Lauren Ashpole <lauren@laurenashpole.com>",
   "license": "MIT",
