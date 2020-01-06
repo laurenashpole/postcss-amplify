@@ -1,6 +1,6 @@
 {
   "name": "postcss-unprefixed",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "main": "index.js",
   "description": "PostCSS plugin to remove vendor prefixes",
   "keywords": [
