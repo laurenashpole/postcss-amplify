@@ -20,6 +20,12 @@ it('removes multiple excluded blocks', async () => {
   })
 })
 
+it('only removes excluded blocks based on prefix', async () => {
+  await run(inputData.prefixBlocks, outputData.prefixBlocks, {
+    exclude: 'widget'
+  })
+})
+
 it('returns root if no blocks are excluded', async () => {
   await run(inputData.noBlocks, outputData.noBlocks, {})
 })
@@ -59,6 +65,27 @@ const inputData = {
       font-size: 24px;
     }
   `,
+  prefixBlocks: `
+    .content {
+      font-size: 16px;
+    }
+
+    .sidebar {
+      background: #f1f1f1;
+    }
+
+    .sidebar-widget {
+      color: #000
+    }
+
+    .widget {
+      width: 200px;
+    }
+
+    .widget__heading {
+      font-size: 24px;
+    }
+  `,
   noBlocks: `
     .content {
       font-size: 16px;
@@ -83,6 +110,19 @@ const outputData = {
   multiBlocks: `
     .content {
       font-size: 16px;
+    }
+  `,
+  prefixBlocks: `
+    .content {
+      font-size: 16px;
+    }
+
+    .sidebar {
+      background: #f1f1f1;
+    }
+
+    .sidebar-widget {
+      color: #000
     }
   `,
   noBlocks: `

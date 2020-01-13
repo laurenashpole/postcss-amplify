@@ -49,4 +49,4 @@ and set this plugin in settings.
 
 ## Options
 
-**options.exclude** (string or array) List of class blocks or prefixes to exclude.
+**options.exclude** (string or array) List of class block names or prefixes to exclude. Do not include the `.` at the beginning of the name.

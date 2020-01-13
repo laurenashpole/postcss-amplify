@@ -1,8 +1,18 @@
 # postcss-amplify
 
-[PostCSS] plugin to optimize CSS for Google AMP.
+[PostCSS] plugin to optimize CSS for Google AMP. A web interface is available at [PostCSS Amplify].
+
+This plugin works by filtering out:
+
+- Media queries for desktop breakpoints
+- Non `-webkit-` vendor prefixes
+- Specific class block names or other prefixes (for use with BEM or other namespacing methodologies)
+- `!important` flags
+- `-amp` classes or `i-amp` tags
 
 [PostCSS]: https://github.com/postcss/postcss
+[PostCSS Amplify]: https://laurenashpole.github.io/postcss-amplify/
+
 
 ```css
 body {
@@ -73,4 +83,16 @@ and set this plugin in settings.
 
 **options.maxBreakpoint** (string) To allow for larger mobile styling, media queries below this breakpoint will be preserved.
 
-**options.excludedBlocks** (string or array) List of class blocks or prefixes to exclude. Do not include the `.`.
+**options.excludedBlocks** (string or array) List of class block names or prefixes to exclude. Do not include the `.` at the beginning of the name.
+
+## Issues
+
+If you run into any unintended side effects or other bugs, please submit an [issue].
+
+[issue]: https://github.com/laurenashpole/postcss-amplify/issues
+
+## License
+
+[MIT]
+
+[MIT]: https://github.com/laurenashpole/postcss-amplify/blob/master/LICENSE
