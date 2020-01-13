@@ -1,0 +1,229 @@
+.form {
+  padding: 1em;
+}
+
+.form__controls {
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.form__opts {
+  background: #dcdfe3;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #5b616b;
+  border-radius: 2px;
+  padding: 2em;
+}
+
+.form__opts-group {
+  position: relative;
+}
+
+.form__opts-group + .form__opts-group {
+  margin-top: 1rem;
+}
+
+.form__opts-group label {
+  color: #5b616b;
+  font-size: 0.9rem;
+}
+
+.form__opts-input {
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid #5b616b;
+  padding: 0.75rem 0 0.5rem 0;
+}
+
+.form__opts-input:focus {
+  border-color: #2d2c35;
+  box-shadow: 0px 1px 0px 0px #2d2c35;
+}
+
+.form__opts-btn {
+  background: #2c873b;
+  border-bottom-color: #22692e;
+  padding: 0.25rem 0.75rem;
+  position: absolute;
+  right: 0;
+  bottom: 0.5rem;
+  color: #fff;
+  font-size: 0.8rem;
+}
+
+.form__opts-btn:hover,
+.form__opts-btn:focus {
+  background: #22692e;
+}
+
+.form__opts-blocks {
+  margin: 1em 0 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.form__opts-blocks:empty {
+  margin: 0;
+}
+
+.form__opts-block {
+  background: #383841;
+  margin: 0 0.5em 0.5em 0;
+  border-radius: 2px;
+  padding: 0 0 0 0.75em;
+  color: #f4f4fA;
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+.form__opts-block button {
+  background: transparent;
+  border: none;
+  margin-left: 0.15rem;
+  padding: 0.5rem 0.8rem 0.5rem 0.8rem;
+  color: #f4f4fA;
+  font-size: 0.8rem;
+}
+
+.form__opts-block button:hover,
+.form__opts-block button:focus {
+  background: #2d2c35;
+}
+
+.form__inputs {
+  position: relative;
+}
+
+.form__inputs:before,
+.form__inputs:after {
+  content: " ";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0.15s linear, opacity 0.15s linear;
+}
+
+.form__inputs:before {
+  background: #2c873b;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.form__inputs:after {
+  margin-top: 1px;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  border-top: 12px solid #fff;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.form__inputs--no-arrow:before,
+.form__inputs--no-arrow:after {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.form__column {
+  position: relative;
+}
+
+.form__label {
+  background: #383841;
+  border-radius: 2px;
+  padding: 0.25rem 0.4rem;
+  position: absolute;
+  top: 0.75rem;
+  right: 1.5rem;
+  color: #f4f4f5;
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+.form__textarea {
+  background: #fff;
+  min-height: 360px;
+  border: 2px solid #dcdfe3;
+  padding: 2em;
+  transition: border-color 0.15s linear;
+}
+
+.form__textarea:focus {
+  border-right-color: #787f92;
+}
+
+.form__column--input .form__textarea {
+  border-width: 0 4px 1px 0;
+  border-radius: 1px 1px 0 0;
+}
+
+.form__column--output .form__textarea {
+  border-width: 1px 4px 2px 0;
+  border-radius: 0 0 1px 1px;
+}
+
+@media (min-width: 768px) {
+  .form {
+    max-width: 1160px;
+    margin: 0 auto;
+    padding: 0 2em 2em 2em;
+  }
+
+  .form__opts,
+  .form__column {
+    width: 50%;
+  }
+
+  .form__controls {
+    margin: -2rem 0 2rem 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
+  .form__opts {
+    margin: 0;
+  }
+
+  .form__inputs {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form__inputs:after {
+    margin: 0 0 0 2px;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid transparent;
+    border-left: 12px solid #fff;
+    border-right: none;
+  }
+
+  .form__textarea {
+    width: 100%;
+    min-height: 540px;
+  }
+
+  .form__textarea:focus {
+    border-right-color: #dcdfe3;
+    border-bottom-color: #787F92;
+  }
+
+  .form__column--input .form__textarea {
+    border-width: 0 1px 4px 0;
+    border-radius: 2px 0 0 2px;
+  }
+
+  .form__column--output .form__textarea {
+    border-width: 0 2px 4px 1px;
+    border-radius: 0 2px 2px 0;
+  }
+}

@@ -1,0 +1,116 @@
+.header {
+  background-image:
+    linear-gradient(#2d2c35, #2d2c35),
+    linear-gradient(110deg, #2d2c35 50%, transparent 50%),
+    linear-gradient(110deg, #2d2c35 50%, transparent 50%),
+    linear-gradient(#383841, #383841);
+  background-size: 77.5% 100%, 25% 51%, 25% 51%, 100% calc(100% - 20px);
+  background-position: 0 0, 100% 0, 100% 100%, 0 0;
+  background-repeat: no-repeat;
+}
+
+.header__content {
+  min-height: 280px;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header__headings {
+  width: 75%;
+  color: #f4f4f5;
+}
+
+.header__title {
+  margin: 0 0 0.75rem 0;
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.header__title:after {
+  content: " ";
+  background: #e83838;
+  width: 100px;
+  height: 2px;
+  margin-top: 1rem;
+  border-radius: 1px;
+  display: block;
+}
+
+.header__subtitle {
+  color: #929398;
+}
+
+.header__btns {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+.header__btns a {
+  width: 2rem;
+  margin: 1rem 1.5rem 0 0;
+  color: #e83838;
+  display: block;
+  transition: color 0.15s linear;
+}
+
+.header__btns a:hover,
+.header__btns a:focus {
+  color: #eba20f;
+}
+
+.header__btns svg {
+  width: 100%;
+  height: auto;
+}
+
+@media (min-width: 768px) {
+ .header {
+    background-size: 60% 100%, 30% 51%, 30% 51%, 100% calc(100% - 20px);
+    background-position: 0 0, 75% 0, 75% 100%, 0 0;
+  }
+
+  .header__content {
+    max-width: 1160px;
+    min-height: 360px;
+    margin: 0 auto;
+    padding: 2.5rem 2rem 3.5rem 2rem;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .header__headings {
+    width: 60%;
+  }
+
+  .header__title {
+    margin-bottom: 1.75rem;
+    font-size: 2.5rem;
+  }
+
+  .header__title:after {
+    margin-top: 1.5rem;
+  }
+
+  .header__btns {
+    margin-left: auto;
+    align-self: flex-end;
+    flex-direction: column;
+  }
+
+  .header__btns a {
+    margin: 0 0 1.25rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .header__content {
+    min-height: 420px;
+  }
+}

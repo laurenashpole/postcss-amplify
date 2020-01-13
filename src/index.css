@@ -1,13 +1,73 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+  -ms-flex: 0 1 auto;
+}
+
+html {
+  font: 100% 'Open Sans', sans-serif;
+}
+
 body {
+  background: #efefef;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  color: #383841;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
+h4 {
+  margin-top: 0;
+  font-family: 'Fredoka One', sans-serif;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+p,
+ul {
+  line-height: 1.65;
+}
+
+button {
+  background: #f3bb4a;
+  border: none;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid #eba20f;
+  border-radius: 2px;
+  padding: 0.75rem 1.25rem;
+  outline: none;
+  font-family: 'Fredoka One', sans-serif;
+  font-size: 1rem;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+  appearance: none;
+  cursor: pointer;
+  transition: background 0.15s linear;
+}
+
+button:hover,
+button:focus {
+  background: #eba20f;
+}
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+input,
+textarea {
+  width: 100%;
+  outline: none;
+  appearance: none;
+  color: #383841;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-size: 16px;
+  display: block;
+  resize: none;
+  transition: border-color 0.15s linear;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 112.5%;
+  }
 }
