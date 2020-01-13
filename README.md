@@ -13,6 +13,7 @@ This plugin works by filtering out:
 [PostCSS]: https://github.com/postcss/postcss
 [PostCSS Amplify]: https://laurenashpole.github.io/postcss-amplify/
 
+For example, inputting:
 
 ```css
 body {
@@ -41,6 +42,8 @@ body {
   width: 300px;
 }
 ```
+
+would result in:
 
 ```css
 body {

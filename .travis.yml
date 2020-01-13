@@ -26,9 +26,7 @@ before_deploy:
 
 deploy:
   provider: script
-  script: "yarn run lerna:publish"
+  script: "yarn run publish"
   skip_cleanup: true
-  on:
-    node: "10"
-    tags: true
+
 
