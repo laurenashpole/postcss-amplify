@@ -6407,16 +6407,16 @@ posix-character-classes@^0.1.0:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/posix-character-classes/-/posix-character-classes-0.1.1.tgz#01eac0fe3b5af71a2a6c02feabb8c1fef7e00eab"
 
-postcss-amplify@^0.0.1-beta.0:
-  version "0.0.1-beta.0"
-  resolved "https://registry.yarnpkg.com/postcss-amplify/-/postcss-amplify-0.0.1-beta.0.tgz#419b9c7fc351e6d124cd007d7cadd69c5682ff0a"
+postcss-amplify@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-amplify/-/postcss-amplify-0.0.1.tgz#9853dc0ffc140100cc492410e76c60c2128f46fe"
   dependencies:
     postcss "^7.0.18"
-    postcss-exclude-blocks "^0.0.1-beta.0"
-    postcss-mobile-only-mqs "^0.0.1-beta.0"
-    postcss-remove-amp-styling "^0.0.1-beta.0"
-    postcss-unimportant "^0.0.1-beta.0"
-    postcss-unprefixed "^0.0.1-beta.0"
+    postcss-exclude-blocks "^0.0.1"
+    postcss-mobile-only-mqs "^0.0.1"
+    postcss-remove-amp-styling "^0.0.1"
+    postcss-unimportant "^0.0.1"
+    postcss-unprefixed "^0.0.1"
 
 postcss-attribute-case-insensitive@^4.0.1:
   version "4.0.1"
@@ -6559,9 +6559,9 @@ postcss-env-function@^2.0.2:
     postcss "^7.0.2"
     postcss-values-parser "^2.0.0"
 
-postcss-exclude-blocks@^0.0.1-beta.0:
-  version "0.0.1-beta.0"
-  resolved "https://registry.yarnpkg.com/postcss-exclude-blocks/-/postcss-exclude-blocks-0.0.1-beta.0.tgz#07b271bad88af44cc1485be14dfca5cd48c964a1"
+postcss-exclude-blocks@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-exclude-blocks/-/postcss-exclude-blocks-0.0.1.tgz#91373486d697312f94cf6528832e8bc2fa873329"
   dependencies:
     postcss "^7.0.18"
 
@@ -6701,9 +6701,9 @@ postcss-minify-selectors@^4.0.2:
     postcss "^7.0.0"
     postcss-selector-parser "^3.0.0"
 
-postcss-mobile-only-mqs@^0.0.1-beta.0:
-  version "0.0.1-beta.0"
-  resolved "https://registry.yarnpkg.com/postcss-mobile-only-mqs/-/postcss-mobile-only-mqs-0.0.1-beta.0.tgz#3ba5b9936002d260d3fa272e867d5420591f363c"
+postcss-mobile-only-mqs@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-mobile-only-mqs/-/postcss-mobile-only-mqs-0.0.1.tgz#0e366f8b93fadac8319818287c132a8b39525187"
   dependencies:
     css-mediaquery "^0.1.2"
     postcss "^7.0.18"
@@ -6919,9 +6919,9 @@ postcss-reduce-transforms@^4.0.2:
     postcss "^7.0.0"
     postcss-value-parser "^3.0.0"
 
-postcss-remove-amp-styling@^0.0.1-beta.0:
-  version "0.0.1-beta.0"
-  resolved "https://registry.yarnpkg.com/postcss-remove-amp-styling/-/postcss-remove-amp-styling-0.0.1-beta.0.tgz#0bd7e55f4ce1f929f8013df55a405af8a71a2e41"
+postcss-remove-amp-styling@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-remove-amp-styling/-/postcss-remove-amp-styling-0.0.1.tgz#8bc84fca7c27b60fcfb80ee5f8d163d22a2c6652"
   dependencies:
     postcss "^7.0.18"
 
@@ -6984,9 +6984,9 @@ postcss-svgo@^4.0.2:
     postcss-value-parser "^3.0.0"
     svgo "^1.0.0"
 
-postcss-unimportant@^0.0.1-beta.0:
-  version "0.0.1-beta.0"
-  resolved "https://registry.yarnpkg.com/postcss-unimportant/-/postcss-unimportant-0.0.1-beta.0.tgz#13f17816ee0668160d8257c183ae2635d1f3808a"
+postcss-unimportant@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-unimportant/-/postcss-unimportant-0.0.1.tgz#d945a810e121dc9af07d02b7a7a2a39454a313c6"
   dependencies:
     postcss "^7.0.18"
 
@@ -6998,9 +6998,9 @@ postcss-unique-selectors@^4.0.1:
     postcss "^7.0.0"
     uniqs "^2.0.0"
 
-postcss-unprefixed@^0.0.1-beta.0:
-  version "0.0.1-beta.0"
-  resolved "https://registry.yarnpkg.com/postcss-unprefixed/-/postcss-unprefixed-0.0.1-beta.0.tgz#54aa6d969b573120960175e84a519fad680ccce0"
+postcss-unprefixed@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/postcss-unprefixed/-/postcss-unprefixed-0.0.1.tgz#6fd1195574fc888ebe6f6420dc709bd2293c5cb6"
   dependencies:
     postcss "^7.0.18"
 
