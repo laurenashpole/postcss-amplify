@@ -1,6 +1,6 @@
 {
   "name": "postcss-mobile-only-mqs",
-  "version": "0.0.1-beta.0",
+  "version": "0.0.1",
   "main": "index.js",
   "description": "PostCSS plugin to remove non-mobile media queries",
   "keywords": [

@@ -5,12 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [0.0.1](https://github.com/laurenashpole/postcss-amplify/compare/v0.0.1-beta.0...v0.0.1) (2020-01-13)
 
-**Note:** Version bump only for package root
-
-
-
-
-
-# Change Log
-
-This project adheres to [Semantic Versioning](http://semver.org/).
+**Note:** Version bump only for package postcss-exclude-blocks
