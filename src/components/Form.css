@@ -2,8 +2,50 @@
   padding: 1em;
 }
 
+.form h4 {
+  margin-bottom: 1.08em;
+}
+
 .form__controls {
   margin: 0.5rem 0 1.5rem 0;
+}
+
+.form__tooltip {
+  max-width: 300px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.form__tooltip.show {
+  opacity: 1;
+}
+
+.form__tooltip.type-light {
+  color: #383841;
+}
+
+.form__tooltip-btn {
+  background: transparent;
+  border: none;
+  padding: 0.25rem 0.5rem;
+}
+
+.form__tooltip-btn:hover,
+.form__tooltip-btn:focus {
+  background: transparent;
+}
+
+.form__tooltip-icon {
+  width: 22px;
+  border: 1px solid #5b616b;
+  border-radius: 50%;
+  color: #5b616b;
+  font-size: 0.85rem;
+  font-weight: 400;
+  line-height: 20px;
+  text-transform: none;
+  display: inline-block;
 }
 
 .form__opts {
@@ -19,7 +61,7 @@
 }
 
 .form__opts-group + .form__opts-group {
-  margin-top: 1rem;
+  margin-top: 0.75rem;
 }
 
 .form__opts-group label {
@@ -31,7 +73,7 @@
   background: transparent;
   border: none;
   border-bottom: 1px solid #5b616b;
-  padding: 0.75rem 0 0.5rem 0;
+  padding: 0.5rem 0 0.5rem 0;
 }
 
 .form__opts-input:focus {
