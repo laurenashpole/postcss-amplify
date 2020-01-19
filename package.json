@@ -4,7 +4,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "version": "lerna version",
-    "publish": "lerna publish from-package",
+    "publish": "lerna publish from-package --yes",
     "test": "jest && eslint ."
   },
   "workspaces": [
