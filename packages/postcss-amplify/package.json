@@ -1,6 +1,6 @@
 {
   "name": "postcss-amplify",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "PostCSS plugin to optimize CSS for Google AMP",
   "keywords": [
@@ -29,10 +29,10 @@
   "homepage": "https://github.com/laurenashpole/postcss-amplify#readme",
   "dependencies": {
     "postcss": "^7.0.18",
-    "postcss-exclude-blocks": "^0.0.1",
-    "postcss-mobile-only-mqs": "^0.0.1",
-    "postcss-remove-amp-styling": "^0.0.1",
-    "postcss-unimportant": "^0.0.1",
-    "postcss-unprefixed": "^0.0.1"
+    "postcss-exclude-blocks": "^0.0.2",
+    "postcss-mobile-only-mqs": "^0.0.2",
+    "postcss-remove-amp-styling": "^0.0.2",
+    "postcss-unimportant": "^0.0.2",
+    "postcss-unprefixed": "^0.0.2"
   }
 }

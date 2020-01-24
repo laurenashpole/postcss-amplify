@@ -1,6 +1,6 @@
 {
   "name": "postcss-remove-amp-styling",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "PostCSS plugin to remove invalid Google AMP styling",
   "keywords": [

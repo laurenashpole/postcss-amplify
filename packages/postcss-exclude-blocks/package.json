@@ -1,6 +1,6 @@
 {
   "name": "postcss-exclude-blocks",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "index.js",
   "description": "PostCSS plugin to exclude specific CSS blocks",
   "keywords": [
