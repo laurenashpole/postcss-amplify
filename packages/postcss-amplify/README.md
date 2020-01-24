@@ -2,6 +2,14 @@
 
 [PostCSS] plugin to optimize CSS for Google AMP.
 
+This plugin works by filtering out:
+
+- Media queries for desktop breakpoints
+- Non `-webkit-` vendor prefixes
+- Specific class block names or other prefixes (for use with BEM or other namespacing methodologies)
+- `!important` flags
+- `-amp` classes or `i-amp` tags
+
 [PostCSS]: https://github.com/postcss/postcss
 
 ```css

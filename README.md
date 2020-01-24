@@ -1,5 +1,14 @@
 # postcss-amplify
 
+[![Travis][build-badge]][build]
+[![npm package][npm-badge]][npm]
+
+[build-badge]: https://travis-ci.org/laurenashpole/postcss-amplify.svg?branch=master
+[build]: https://travis-ci.org/laurenashpole/postcss-amplify
+
+[npm-badge]: http://img.shields.io/npm/v/postcss-amplify.svg?style=flat
+[npm]: https://www.npmjs.com/package/postcss-amplify
+
 [PostCSS] plugin to optimize CSS for Google AMP. A web interface is available at [PostCSS Amplify].
 
 This plugin works by filtering out:

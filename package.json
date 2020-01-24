@@ -3,8 +3,7 @@
   "private": true,
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "version": "lerna version",
-    "publish": "lerna publish from-package --yes",
+    "release": "lerna publish --conventional-commits --yes",
     "test": "jest && eslint ."
   },
   "workspaces": [
